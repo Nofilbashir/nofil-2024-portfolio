@@ -18,12 +18,17 @@ const Navbar = ({type}) => {
           }
         </div>
         <div className='flex_row gap2rem'>
+        <Link href="/projects">
+           <MovingText text="Projects" h4={true} type='none' color={type==="black"?"black":"white"}/>
+           </Link>
         <Link href="/contact-us">
         <MovingText text="Get In Touch" h4={true} type='none' boxWidth='100px' color={type==="black"?"black":"white"}/>
         </Link>
         <Link href="/">
            <MovingText text="Home" h4={true} type='menu' color={type==="black"?"black":"white"}/>
            </Link>
+
+
         <Link href="/">
 
            <div  className={`burger flex_column`} >

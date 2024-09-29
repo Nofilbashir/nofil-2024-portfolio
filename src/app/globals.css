@@ -426,6 +426,10 @@ left: 11px;
 
 }
 
+.dark_text{
+  color:black
+}
+
 .primary_text{
   color: var(--primary_color);
 

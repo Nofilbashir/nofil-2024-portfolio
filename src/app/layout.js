@@ -9,7 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Nofil",
+  title: "Nofil Bashir",
   description: "Portfolio App Nofil",
 };
 
@@ -40,6 +40,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
+  
     <body className={`${poppins.className}`}>
       {/* <PreLoader /> */}
 
